@@ -1,2 +1,6 @@
+
+![](./video.png)
+
 # locadora_filmes
-Programa de Locadora de Filmes
+Programa de Locadora de Filmes.
+
