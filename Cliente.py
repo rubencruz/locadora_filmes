@@ -16,11 +16,11 @@ class Cliente():
     def __init__(self, nome):
         self._nome = nome
         self._alocacoes = []
-    def addicionarAlocacao(self, arg): # art de tipo alocacao
+    def adicionarAlocacao(self, arg): # art de tipo alocacao
         self._alocacoes.append(arg)
     def getNome(self):
         return self._nome
-    def Expresao(self):
+    def Expressao(self):
         totalQuantidade = 0.0
         pontosFrequenciaAlocacao = 0
         alocacoes = iter(self._alocacoes)
@@ -64,8 +64,8 @@ if __name__ == '__main__':
     alo02 = Alocacao(fil01,2) #filme, dias locados
     alo03 = Alocacao(fil01,1) #filme, dias locados
 
-    meuCliente.addicionarAlocacao(alo01)
-    meuCliente.addicionarAlocacao(alo02)
-    meuCliente.addicionarAlocacao(alo03)
+    meuCliente.adicionarAlocacao(alo01)
+    meuCliente.adicionarAlocacao(alo02)
+    meuCliente.adicionarAlocacao(alo03)
 
-    print meuCliente.Expresao()
+    print meuCliente.Expressao()
